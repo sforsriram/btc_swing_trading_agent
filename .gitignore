@@ -21,6 +21,7 @@ data/*.csv
 data/*.parquet
 data/*.json
 data/*.sqlite
+*.sqlite
 
 # Secrets
 secrets.py
