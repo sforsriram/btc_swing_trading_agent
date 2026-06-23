@@ -1,30 +1,50 @@
 # Environment
 .env
-.venv/
+.env.local
+.env.*.local
+
 venv/
+.venv/
 
 # Python
 __pycache__/
+*.py[cod]
 *.pyc
 *.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
 
 # Data files (fetched at runtime)
 data/*.csv
 data/*.parquet
 data/*.json
+data/*.sqlite
 
 # Secrets
 secrets.py
-*.key
+.key
 
 # IDE
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Results (optional — remove this block to track results)
-results/
+# Logs and outputs (optional — remove if you want to track results)
+logs/
+equity_curve*.png
+r_distribution*.png
+*.log
+sensitivity.csv
+trades.log
+agent.log
+
+# Version markers
+=*

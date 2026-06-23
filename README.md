@@ -21,9 +21,9 @@ Automated BTC-USD swing trading system built on Coinbase Advanced Trade API.
 
 ## Phase 0 Results
 
-- 70 trades over 2015–2026
-- 52.9% win rate, PF 1.40, Max DD 6.7%, Net +18.9%
-- Full results: `results/phase0_final_results.md`
+- **70 trades** over 2015–2026
+- **52.9% win rate**, PF 1.40, Max DD 6.7%, Net +18.9%
+- **Full results:** [results/phase0_final_results.md](results/phase0_final_results.md)
 
 ## Project Structure
 
@@ -49,6 +49,6 @@ python backtest/engine.py
 
 ## Versioning
 
-- `main` — stable, tested configs only
-- `phase1-paper` — paper trading integration (Phase 1)
-- `experiments/` — parameter changes, never merged to main untested
+- **main** — stable, tested configs only
+- **phase1-paper** — paper trading integration (Phase 1)
+- **experiments/** — parameter changes, never merged to main untested
