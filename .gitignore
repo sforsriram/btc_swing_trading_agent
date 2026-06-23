@@ -1,0 +1,30 @@
+# Secrets
+.env
+
+# Databases (contain real trade state)
+data/*.sqlite
+data/*.db
+
+# Logs
+logs/*.log
+logs/*.log.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
